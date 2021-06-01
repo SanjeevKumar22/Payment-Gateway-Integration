@@ -99,7 +99,8 @@ main {
     font-weight: 400;
 }
 .text {
-   color:springgreen;
+    /* background-color: rgba(88, 214, 141); */
+    color:springgreen;
 }
 #donate {
     font-size: 16px;
@@ -120,7 +121,7 @@ main {
     padding: 16px;
     margin: 12px;
     margin-top: 15px;
-    background-color: rgba(46, 0, 251, 0.7);
+    background-color: rgb(69, 2, 255);
     border: none;
     font-weight: bold;
     color:white;
@@ -142,14 +143,7 @@ main {
     outline: none;
 }
 @media only screen and (max-width: 600px) {
-    .animate {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    .animate2 {
-        transform: translateY(50px);
-        opacity: 0;
-    }
+    
     .hidden {
         opacity: 0;
         pointer-events: none;
@@ -162,7 +156,7 @@ main {
         margin: 5px;
     }
     .first-heading {
-        font-size: 2em;
+        font-size:20px;
         transition: all 500ms 0.4s;
     }
     .first-subtext {
@@ -217,13 +211,13 @@ main {
 
 @media only screen and (max-width: 400px) {
     .headText {
-        font-size: 1em;
+        font-size: 20px;
     }
     .first-heading {
-        font-size: 1.5em;
+        font-size:20px;
     }
     .first-subtext {
         margin-top: 1rem;
-        font-size: 0.5em;
+        font-size: 15px;
     }
 }
